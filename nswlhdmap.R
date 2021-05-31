@@ -6,7 +6,7 @@ lhd_map <- function(include = c(),
   #                      stringsAsFactors = FALSE,
   #                      )
   
-  df <- utils::read.csv(system.file("nswlhd", "nswlhd.csv", package = "lhdmap"),
+  df <- utils::read.csv(system.file("nswlhd", "nswlhd.csv", package = "nsw-lhd-map"),
                         colClasses = c("numeric", "numeric", "integer", "logical", "integer", "numeric", "integer", "character", "character", "character", "character"),
                         stringsAsFactors = FALSE,
                         )
